@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ControlFile>
+	<OutputLevel>1</OutputLevel>
+	<Title>Test File</Title>
+	<Seed>342554</Seed>
+	<InputFiles>
+		<RSELocationFile>/Users/paolo/temp/San Diego AMS/TCA-A-2.3.2/RSE_Locations_intersection.csv</RSELocationFile>
+		<StrategyFile>/Users/paolo/temp/San Diego AMS/TCA-A-2.3.2/Strategy_intersection.xml</StrategyFile>	
+		<RegionsFile>/Users/paolo/temp/San Diego AMS/TCA-A-2.3.2/TCA_Regions_intersection.xml</RegionsFile>
+		<SPOTLocationFile>/Users/paolo/temp/San Diego AMS/TCA-A-2.3.2/RSE_Locations_intersection.csv</SPOTLocationFile>
+	</InputFiles>
+	<EquippedVehicles>
+		<BSMVehicleTypes>1052</BSMVehicleTypes>
+		<PDMVehicleTypes>1051</PDMVehicleTypes>
+		<DualPDMBSMVehicleTypes>1054</DualPDMBSMVehicleTypes>
+		<CAMVehicleTypes>1053</CAMVehicleTypes>
+		<BSMEquipped>
+			<DualComm>
+				<VehicleTypes>1052</VehicleTypes>
+			</DualComm>
+		</BSMEquipped>
+		<PDMEquipped>
+			<Cellular>
+				<VehicleTypes>1051</VehicleTypes>
+			</Cellular>
+		</PDMEquipped>
+		<PDMBSMEquipped>
+			<DSRC>
+				<VehicleTypes>1054</VehicleTypes>
+			</DSRC>
+		</PDMBSMEquipped>
+		<CAMEquipped>
+			<DSRC>
+				<VehicleTypes>1053</VehicleTypes>
+			</DSRC>
+		</CAMEquipped>
+	</EquippedVehicles>
+	<Color>
+		<ColorDisplay>True</ColorDisplay>
+	</Color>
+	<OutputFiles>
+		<PDMTransFile>/Users/paolo/temp/San Diego AMS/TCA-A-2.3.2/TCAoutPDM.csv</PDMTransFile>
+		<PDMAllFile>/Users/paolo/temp/San Diego AMS/TCA-A-2.3.2/TCAoutPDMAll.csv</PDMAllFile>
+		<BSMTransFile>/Users/paolo/temp/San Diego AMS/TCA-A-2.3.2/TCAoutBSM.csv</BSMTransFile>
+		<CAMTransFile>/Users/paolo/temp/San Diego AMS/TCA-A-2.3.2/TCAoutCAM.csv</CAMTransFile>
+    </OutputFiles>
+</ControlFile>

@@ -1,0 +1,4 @@
+Initial release version 2.3.2 
+-------------------------------------
+Adaptation of version 2.3.2 of the TCA-V software to interface with Aimsun.
+See the release notes of TCA-V for a list of changes compared to previous versions of TCA-V.
